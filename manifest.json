@@ -1,10 +1,10 @@
 ﻿{
-	"name": "知乎软文屏蔽",
+	"name": "知乎小助手",
 	"version": "3.0",
-	"short_name":"屏蔽知乎软文Chrome扩展程序",
-	"description":"屏蔽知乎软文。如有疑问欢迎咨询开发者。",
+	"short_name":"知乎阅读小助手",
+	"description":"统计知乎每个回答的字数",
 	"background": {
-		"scripts": ["background.js"]
+		"service_worker": "background.js"
 	},
 	"content_scripts": [
 		{
@@ -22,8 +22,8 @@
 		"48": "icons/icon_48.png",
 		"128": "icons/icon_128.png"
 	},
-	"browser_action": {
-		"name": "知乎软文屏蔽--by Edward",
+	"action": {
+		"name": "知乎小助手--by Edward",
 		"default_icon": "icons/icon_128.png",
 		"default_popup": "popup.html"
 	},
