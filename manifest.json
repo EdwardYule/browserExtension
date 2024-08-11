@@ -1,6 +1,6 @@
 ﻿{
 	"name": "知乎小助手",
-	"version": "3.0",
+	"version": "1.0",
 	"short_name":"知乎阅读小助手",
 	"description":"统计知乎每个回答的字数",
 	"background": {
